@@ -7,15 +7,6 @@ void setup() {
 }
 ```
 
-void loop() {
-  // No es necesario poner nada en el loop para este ejemplo
-}
-
-void loop() {
-  // No es necesario poner nada en el loop para este ejemplo
-}
-```
-
 ##### Ejercicio 2 LED Intermitente (Blink) #####
 ```js
 void setup() {  // Configuración inicial (ej: pines como entrada/salida)
