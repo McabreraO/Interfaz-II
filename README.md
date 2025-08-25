@@ -32,6 +32,7 @@ void loop() {   // Se repite infinitamente
   
 }
 ```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Le%20Intermitente.png"/>
 
 ##### Ejercicio 3 Control por Pulsador #####
 ```js
