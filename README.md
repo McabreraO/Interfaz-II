@@ -9,6 +9,7 @@ void loop() {
   // No es necesario poner nada en el loop para este ejemplo
 }
 ```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Hola%20mundo.png"/>
 
 ##### Ejercicio 2 LED Intermitente (Blink) #####
 ```js
