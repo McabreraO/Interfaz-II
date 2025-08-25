@@ -59,6 +59,7 @@ void loop() {
   analogWrite(9, brillo);               // Ajustar brillo
 }
 ```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/led%20Potenciometro.png"/>
 ##### Ejercicio 5 Semáforo #####
 ```js
 // C++ code - Semáforo Autos y Peatones
