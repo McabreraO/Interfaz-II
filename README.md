@@ -47,6 +47,7 @@ void loop() {
   }
 }
 ```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Led%20Pulsador.png"/>
 
 ##### Ejercicio 4 LED con Potenciómetro #####
 ```js
