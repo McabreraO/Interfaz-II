@@ -106,4 +106,4 @@ void loop() {
   delay(2000); // 2 segundos
 }
 ```
-
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/Sem%C3%A1foro.png"/>
