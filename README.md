@@ -283,6 +283,7 @@ void loop() {
   delay(500); // medio segundo entre lecturas
 }
 ```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/If%20else.png"/>
 
 }
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/Sem%C3%A1foro.png"/>
