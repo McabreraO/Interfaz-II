@@ -108,7 +108,56 @@ void loop() {
   // 🚦 Fase 4: Rojo autos, rojo peatones (tiempo intermedio)
   digitalWrite(LED_4, LOW);   // Verde peatones apagado
   digitalWrite(LED_5, HIGH);  // Rojo peatones encendido
+
+
   delay(2000); // 2 segundos
 }
 ```
+
+##### Ejercicio 8 For if #####
+```js
+int leds[] = {2, 3, 4, 5}; // Creamos un arreglo con los pines donde van conectados los LEDs
+
+void setup() {
+  // Esta función corre solo una vez al iniciar Arduino
+  for (int i = 0; i < 4; i++) {         // Recorre el arreglo desde i = 0 hasta i = 3
+    pinMode(leds[i], OUTPUT);           // Configura cada pin del arreglo como salida (para controlar LEDs)
+  }
+}
+
+void loop() {
+  // Esta función corre en bucle infinito
+  for (int i = 0; i < 4; i++) {         // Recorre los 4 LEDs, uno por uno
+    if (i % 1 == 0) {                   // Si el índice es par (0, 2)...
+      digitalWrite(leds[i], HIGH);      // Enciende el LED correspondiente
+    } else {                            // Si el índice es impar (1, 3)...
+      digitalWrite(leds[i], LOW);       // Apaga el LED correspondiente
+    }
+    delay(500);                         // Espera 0,5 segundos antes de pasar al siguiente
+  }
+```
+##### Ejercicio 9 if else #####
+```js
+int valor;  // aquí guardaremos la lectura del sensor
+
+void setup() {
+  Serial.begin(9600);   // Inicia la comunicación serial
+}
+
+void loop() {
+  valor = analogRead(A0);   // lee el pin analógico A0
+
+  if (valor < 300) {
+    Serial.println("Muy bajo");
+  } else if (valor < 700) {
+    Serial.println("Medio");
+  } else {
+    Serial.println("Alto");
+  }
+
+  delay(500); // medio segundo entre lecturas
+}
+```
+
+}
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/Sem%C3%A1foro.png"/>
