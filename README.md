@@ -261,6 +261,9 @@ void loop() {
     delay(500);                         // Espera 0,5 segundos antes de pasar al siguiente
   }
 ```
+
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/For.png"/>
+  
 ##### Ejercicio 9 if else #####
 ```js
 int valor;  // aquí guardaremos la lectura del sensor
