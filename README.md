@@ -371,7 +371,7 @@ void playTrack(int index) {
   // Reproducimos en bucle la pista seleccionada
   players[index].loop();
 
-##### Ejercicio 11 Semáforo 2.0 (entrega) #####
+##### Ejercicio 11 semáforo 2.0 ##### 
 
 ```js
 // Definición de pines
@@ -463,7 +463,7 @@ void loop() {
   }
 }
 
-<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Sem%C3%A1foro%202.0.png"/> 
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Sem%C3%A1foro%202.0.png/> 
 
 
 
