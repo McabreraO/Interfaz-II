@@ -370,8 +370,101 @@ void playTrack(int index) {
   
   // Reproducimos en bucle la pista seleccionada
   players[index].loop();
+
+##### Ejercicio 11 Semáforo 2.0 (entrega) #####
+
+```js
+// Definición de pines
+int LED_1 = 6;  // Luz roja autos (controlada por botón)
+int LED_2 = 7;  // Luz amarilla autos (automática)
+int LED_3 = 8;  // Luz verde autos (automática)
+int LED_4 = 9;  // Luz verde peatones (controlada por botón)
+int LED_5 = 10; // Luz roja peatones (automática)
+
+int boton1 = 2; // Botón 1
+int boton2 = 4; // Botón 2
+
+bool estadoLED_1 = false; // Estado de LED_1
+bool estadoLED_4 = false; // Estado de LED_4
+
+unsigned long tiempoAnterior = 0;
+int estadoSemaforo = 0;
+
+void setup() {
+  // Configurar LEDs como salida
+  pinMode(LED_1, OUTPUT);
+  pinMode(LED_2, OUTPUT);
+  pinMode(LED_3, OUTPUT);
+  pinMode(LED_4, OUTPUT);
+  pinMode(LED_5, OUTPUT);
+
+  // Configurar botones como entrada pull-up
+  pinMode(boton1, INPUT_PULLUP);
+  pinMode(boton2, INPUT_PULLUP);
+
+  // Apagar todos los LEDs al inicio
+  digitalWrite(LED_1, LOW);
+  digitalWrite(LED_2, LOW);
+  digitalWrite(LED_3, LOW);
+  digitalWrite(LED_4, LOW);
+  digitalWrite(LED_5, LOW);
+}
+
+void loop() {
+  // --------------------------
+  // CONTROL CON BOTONES
+  // --------------------------
+  if (digitalRead(boton1) == LOW) {
+    delay(200); // Evita rebotes
+    estadoLED_1 = !estadoLED_1;
+    digitalWrite(LED_1, estadoLED_1);
+    while (digitalRead(boton1) == LOW); // Espera a soltar
+  }
+
+  if (digitalRead(boton2) == LOW) {
+    delay(200);
+    estadoLED_4 = !estadoLED_4;
+    digitalWrite(LED_4, estadoLED_4);
+    while (digitalRead(boton2) == LOW);
+  }
+
+  // --------------------------
+  // SECUENCIA AUTOMÁTICA DE SEMÁFORO
+  // --------------------------
+
+  unsigned long tiempoActual = millis();
+
+  // Cambia de estado cada 3 segundos
+  if (tiempoActual - tiempoAnterior >= 3000) {
+    tiempoAnterior = tiempoActual;
+
+    // Apagar todos los LEDs automáticos antes de cambiar de estado
+    digitalWrite(LED_2, LOW); // Amarillo autos
+    digitalWrite(LED_3, LOW); // Verde autos
+    digitalWrite(LED_5, LOW); // Rojo peatones
+
+    // Cambiar de estado
+    switch (estadoSemaforo) {
+      case 0:
+        digitalWrite(LED_3, HIGH); // Verde autos
+        digitalWrite(LED_5, HIGH); // Rojo peatones
+        estadoSemaforo = 1;
+        break;
+      case 1:
+        digitalWrite(LED_2, HIGH); // Amarillo autos
+        digitalWrite(LED_5, HIGH); // Rojo peatones
+        estadoSemaforo = 2;
+        break;
+      case 2:
+        // Nada encendido, pausa breve
+        estadoSemaforo = 0;
+        break;
+    }
+  }
+}
+
+
+
   
-  // Actualizamos la variable para saber cuál es la pista activa
-  currentTrack = index;
 }
 
