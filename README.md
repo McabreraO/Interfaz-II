@@ -463,8 +463,10 @@ void loop() {
   }
 }
 
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Sem%C3%A1foro%202.0.png"/> 
+
 
 
   
-}
+
 
