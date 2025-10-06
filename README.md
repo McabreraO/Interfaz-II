@@ -370,9 +370,9 @@ void playTrack(int index) {
   
   // Reproducimos en bucle la pista seleccionada
   players[index].loop();
+```
 
 ##### Ejercicio 11 semáforo 2.0 ##### 
-
 ```js
 // Definición de pines
 int LED_1 = 6;  // Luz roja autos (controlada por botón)
@@ -463,6 +463,7 @@ void loop() {
   }
 }
 
+```
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Sem%C3%A1foro%202.0.png/> 
 
 
