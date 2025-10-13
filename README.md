@@ -466,6 +466,26 @@ void loop() {
 ```
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Sem%C3%A1foro%202.0.png"/> 
 
+```
+#### Ejercicio 12 Sensor ####
+```js
+
+// Definir el pin del sensor Sharp
+int sharpPin = A0;
+
+void setup() {
+  Serial.begin(9600); // Iniciar comunicación serial
+}
+
+void loop() {
+  int sensorValue = analogRead(sharpPin); // Leer valor del sensor
+  Serial.println(sensorValue); // Enviar valor a Processing
+  delay(100); // Esperar un momento
+}
+
+```
+
+
 
 
 
