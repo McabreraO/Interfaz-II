@@ -525,7 +525,10 @@ void draw()
   ellipse(width/2, height/2, d, d);   
 
 }
+
 ```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/Sensor%20Processing.png"/> 
+
 
 
 
