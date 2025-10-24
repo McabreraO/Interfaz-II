@@ -547,7 +547,7 @@ void loop()
   delay(200);
 }
 ```
-##### Ejercicio 15 ##### 
+##### Ejercicio 15 Promedio de imagenes ##### 
 ```js
 Processing:
 
