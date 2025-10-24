@@ -4,7 +4,7 @@
 2. [Led intermitente](#ejercicio-2-led-intermitente-blink) <br>
 3. [Control Pulsador](#ejercicio-3-control-por-pulsador) <br>
 4. [Led con potenciometro](#ejercicio-4-led-con-potenci%C3%B3metro) <br>
-
+5. [Semáforo](#ejercicio-5-sem%C3%A1foro) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
