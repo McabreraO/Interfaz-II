@@ -14,6 +14,7 @@
 12. [Sensor](#ejercicio-12-sensor) <br>
 13. [Sensor processing](#ejercicio-13-sensor-processing) <br>
 14. [Sensor humedad](#ejercico-14-sensor-humedad) <br>
+15. [Promedio de imagenes](#ejercicio-15-promedio-de-imagenes) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
