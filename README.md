@@ -628,9 +628,13 @@ void loop() {
 }
 
 ```
+
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/imagen%201.png"/>
+
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/imagen%202.png"/>
+
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/imagen%203.png"/>
+
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/imagen%204.png"/>
 
 
