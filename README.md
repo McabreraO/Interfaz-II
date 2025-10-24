@@ -13,6 +13,7 @@
 11. [Semáforo 2.0](#ejercicio-11-sem%C3%A1foro-20) <br>
 12. [Sensor](#ejercicio-12-sensor) <br>
 13. [Sensor processing](#ejercicio-13-sensor-processing) <br>
+14. [Sensor humedad](#ejercico-14-sensor-humedad) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
