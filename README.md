@@ -9,6 +9,7 @@
 7. [Processing](#ejercicio-7-processing) <br>
 8. [For it](#ejercicio-8-for-if) <br>
 9. [If else](#ejercicio-9-if-else) <br>
+10. [Botonera con sonido](#ejercicio-n10-botonera-con-sonido) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
@@ -302,7 +303,7 @@ void loop() {
 ```
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/If%20else.png"/>
 
-##### ejercicio n°10: botonera con sonido
+##### Ejercicio 10 Botonera con sonido
 
 ```js
 import processing.sound.*;
