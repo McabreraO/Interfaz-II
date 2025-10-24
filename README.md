@@ -10,6 +10,7 @@
 8. [For it](#ejercicio-8-for-if) <br>
 9. [If else](#ejercicio-9-if-else) <br>
 10. [Botonera con sonido](#ejercicio-10-botonera-con-sonido) <br>
+11. [Semáforo 2.0](#ejercicio-11-sem%C3%A1foro-20) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
