@@ -9,7 +9,7 @@
 7. [Processing](#ejercicio-7-processing) <br>
 8. [For it](#ejercicio-8-for-if) <br>
 9. [If else](#ejercicio-9-if-else) <br>
-10. [Botonera con sonido](#ejercicio-n10-botonera-con-sonido) <br>
+10. [Botonera con sonido](#ejercicio-10-botonera-con-sonido) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
