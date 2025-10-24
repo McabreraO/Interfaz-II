@@ -12,6 +12,7 @@
 10. [Botonera con sonido](#ejercicio-10-botonera-con-sonido) <br>
 11. [Semáforo 2.0](#ejercicio-11-sem%C3%A1foro-20) <br>
 12. [Sensor](#ejercicio-12-sensor) <br>
+13. [Sensor processing](#ejercicio-13-sensor-processing) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
