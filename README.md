@@ -3,7 +3,7 @@
 1. [Hola Mundo](#ejercicio-1-hola-mundo) <br>
 2. [Led intermitente](#ejercicio-2-led-intermitente-blink) <br>
 3. [Control Pulsador](#ejercicio-3-control-por-pulsador) <br>
-
+4. [Led con potenciometro](#ejercicio-4-led-con-potenci%C3%B3metro) <br>
 
 
 # Interfaz-II
