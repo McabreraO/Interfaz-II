@@ -5,6 +5,7 @@
 3. [Control Pulsador](#ejercicio-3-control-por-pulsador) <br>
 4. [Led con potenciometro](#ejercicio-4-led-con-potenci%C3%B3metro) <br>
 5. [Semáforo](#ejercicio-5-sem%C3%A1foro) <br>
+6. [Semáforo Parpadeante](#ejercico-6-sem%C3%A1foro-parpadeante) <br>
 
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
