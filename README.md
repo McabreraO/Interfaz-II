@@ -15,7 +15,7 @@
 13. [Sensor processing](#ejercicio-13-sensor-processing) <br>
 14. [Sensor humedad](#ejercico-14-sensor-humedad) <br>
 15. [Promedio de imagenes](#ejercicio-15-promedio-de-imagenes) <br>
-
+16. [Código sensor grupo](#ejercicio-16-c%C3%B3digo-sensor-processing-en-grupo) <br>
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
 ```js
