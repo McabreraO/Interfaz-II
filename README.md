@@ -726,6 +726,8 @@ void reproducirSonido() {
   }
 }
 
+```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/Captura%20de%20pantalla%202025-11-10%20092458.png"/> 
 
 
 
