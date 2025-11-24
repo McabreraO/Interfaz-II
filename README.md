@@ -730,7 +730,7 @@ void reproducirSonido() {
 <img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/Captura%20de%20pantalla%202025-11-10%20092458.png"/> 
 
 ##### Ejercicio Final #####
-´´´js
+```js
 Processing:
 import processing.serial.*;
 import processing.sound.*;
@@ -871,7 +871,12 @@ void loop() {
  delay(50);
 }
 
-
+```
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/IMG_1303.jpg"/> 
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/IMG_1304.jpg"/> 
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/IMG_1305.jpg"/>
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/IMG_1308.jpg"/> 
+<img src="https://raw.githubusercontent.com/McabreraO/Interfaz-II/refs/heads/main/img/IMG_1310.jpg"/>
 
 
   
