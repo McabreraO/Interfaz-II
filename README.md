@@ -17,7 +17,6 @@
 15. [Promedio de imagenes](#ejercicio-15-promedio-de-imagenes) <br>
 16. [Código sensor grupo](#ejercicio-16-c%C3%B3digo-sensor-processing-en-grupo) <br>
 17. [Ejercicio final](#ejercicio-final) <br>
-18. [hola mundo](#ejercicio-1-hola-mundo) <br>
 # Interfaz-II
 ##### Ejercicio 1 "Hola mundo" #####
 ```js
